@@ -1,0 +1,40 @@
+.menu {
+  &__item {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+
+    &__title {
+      margin-left: 16px;
+    }
+
+    &__icon {
+      width: 15px;
+      height: 15px;
+    }
+
+    &__icon-home {
+      background: url('../../assets/svg/feed-icon.svg') no-repeat center;
+    }
+
+    &__icon-explore {
+      background: url('../../assets/svg/grid-icon.svg') no-repeat center;
+    }
+
+    &__icon-favorites {
+      background: url('../../assets/svg/favorites-icon.svg') no-repeat center;
+    }
+    
+    &__icon-direct {
+      background: url('../../assets/svg/direct-icon.svg') no-repeat center;
+    }
+
+    &__icon-stats {
+      background: url('../../assets/svg/stats-icon.svg') no-repeat center;
+    }
+
+    &__icon-settings {
+      background: url('../../assets/svg/settings-icon.svg') no-repeat center;
+    }
+  }
+}

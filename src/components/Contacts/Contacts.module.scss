@@ -1,0 +1,25 @@
+@import '../../scss/variables.scss';
+
+.contacts {
+  padding-right: 16px;
+
+  &__heading {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &__view-all-button {
+    margin-top: 16px;
+    width: 100%;
+    border: 0;
+    color: $blue6;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+
+    &:hover {
+      
+    }
+  }
+}

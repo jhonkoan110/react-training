@@ -1,0 +1,46 @@
+@import '../../scss/variables.scss';
+
+.container {
+  text-align: center;
+}
+
+.heading {
+  &__avatar {
+    margin: 0 auto 11px;
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 50%;
+  }
+
+  &__username {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__address {
+    font-weight: 600;
+    font-size: 12px;
+    color: $gray8;
+  }
+}
+
+.info {
+  margin-top: 24px;
+  padding: 0 21px;
+  display: flex;
+  justify-content: space-between;
+
+  &__block {
+    &__number {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    &__title {
+      font-weight: 600;
+      font-size: 12px;
+      color: $gray8;
+    }
+  }
+}

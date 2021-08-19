@@ -1,0 +1,10 @@
+@import '../../scss/variables.scss';
+
+.divider {
+  margin: 32px 0;
+  height: 2px;
+  background-image: linear-gradient(to right, $gray11 10%, rgba(255, 255, 255, 0) 0%);
+  background-position: top;
+  background-size: 10px;
+  background-repeat: repeat-x;
+}

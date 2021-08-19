@@ -1,0 +1,10 @@
+@import '../../scss/variables.scss';
+
+.main {
+  margin: 0 auto;
+  width: $app-width;
+  min-height: $app-height;
+  background-color: $background;
+  display: flex;
+  justify-content: space-between;
+}
