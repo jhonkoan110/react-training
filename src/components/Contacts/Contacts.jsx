@@ -1,6 +1,8 @@
 import { ContactItem } from './Contact/ContactItem';
 import classes from './Contacts.module.scss';
 
+//TODO: вынести кнопку в отдельный компонент
+
 export const Contacts = () => {
   return (
     <div className={classes.contacts}>

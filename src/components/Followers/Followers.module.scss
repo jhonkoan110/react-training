@@ -1,0 +1,75 @@
+@import '../../scss/variables.scss';
+
+.followers {
+  padding: 16px;
+  background-color: $gray12;
+  border-radius: 24px;
+
+  &__icons {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+
+    &__item {
+      position: absolute;
+      left: 0;
+      width: 32px;
+      height: 32px;
+      border: 2px solid #fff;
+      background-color: red;
+      border-radius: 50%;
+      // transform: translateX(-24px);
+
+      &:nth-child(2) {
+        left: 8%;
+      }
+
+      &:nth-child(3) {
+        left: 16%;
+      }
+
+      &:nth-child(4) {
+        left: 24%;
+      }
+
+      &:nth-child(5) {
+        left: 32%;
+      }
+
+      &:nth-child(6) {
+        left: 40%;
+      }
+
+      &:nth-child(7) {
+        left: 48%;
+      }
+
+      &:nth-child(8) {
+        left: 56%;
+      }
+    }
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+
+    &__number {
+      margin-right: 8px;
+      font-weight: 700;
+      font-size: 24px;
+    }
+
+    &__text {
+      font-size: 14px;
+      color: $gray6;
+    }
+  }
+
+  &__description {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

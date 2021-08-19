@@ -1,0 +1,32 @@
+@import '../../scss/variables.scss';
+
+.search {
+  padding: 0 16px;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 18px;
+  border: 1px solid $gray11;
+  background: #fff;
+
+  &__left-icon {
+    width: 15px;
+    height: 15px;
+    background: url('../../assets/svg/search-icon.svg') no-repeat center;
+  }
+
+  &__input {
+    margin: 16px 8px;
+    width: 226px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+  }
+
+  &__right-icon {
+    width: 15px;
+    height: 15px;
+    background: url('../../assets/svg/micro-icon.svg');
+  }
+}

@@ -1,0 +1,49 @@
+@import '../../scss/variables.scss';
+
+.stories {
+  margin-bottom: 40px;
+
+  &__heading {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__title {
+      font-weight: 700;
+      font-size: 24px;
+    }
+
+    &__watch-all-button {
+      font-size: 12px;
+      background-color: transparent;
+      border: 0;
+      color: $blue6;
+      cursor: pointer;
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__block {
+      text-align: center;
+
+      &__avatar {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background-color: tomato;
+        margin-bottom: 12px;
+        border: 2px solid #fff;
+      }
+
+      &__name {
+        font-weight: 700;
+        font-size: 14px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.create-new-post-button {
+  padding-right: 16px;
+  width: 176px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(254.81deg, #1a50ff 8.13%, #d96ff8 92.46%);
+  border: 0;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+
+  &__icon {
+    margin: 15px;
+    width: 17px;
+    height: 17px;
+    background: url('../../assets/svg/plus-icon.svg') no-repeat center;
+  }
+
+  &__text {
+    color: #fff;
+  }
+}

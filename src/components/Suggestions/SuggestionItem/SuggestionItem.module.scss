@@ -1,0 +1,37 @@
+@import '../../../scss/variables.scss';
+
+.suggestion-item {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__avatar {
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+    background-color: chartreuse;
+    border-radius: 50%;
+  }
+
+  &__info {
+    width: 169px;
+
+    &__username {
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    &__address {
+      font-weight: 600;
+      font-size: 12px;
+      color: $gray8;
+    }
+  }
+
+  &__chat-icon {
+    width: 15px;
+    height: 15px;
+    background: url('../../../assets/svg/add-friend.svg') no-repeat center;
+  }
+}
